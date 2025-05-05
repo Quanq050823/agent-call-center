@@ -1,0 +1,23 @@
+[project]
+name = "argent_qualify_lead6"
+version = "0.1.0"
+description = "argent-qualify-lead6 using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.118.0,<1.0.0"
+]
+
+[project.scripts]
+argent_qualify_lead6 = "argent_qualify_lead6.main:run"
+run_crew = "argent_qualify_lead6.main:run"
+train = "argent_qualify_lead6.main:train"
+replay = "argent_qualify_lead6.main:replay"
+test = "argent_qualify_lead6.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"

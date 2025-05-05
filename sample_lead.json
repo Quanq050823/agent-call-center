@@ -1,0 +1,19 @@
+{
+	"_id": { "$oid": "6815bdbb1660633e3262c056" },
+	"userId": { "$oid": "67b1c1331e12c93a79317bbb" },
+	"flowId": { "$oid": "67f704b14cd3acb38825d64c" },
+	"status": { "$numberInt": "2" },
+	"leadData": {
+		"website_link": "dagttax.vn",
+		"email": "quangcuatuonglai@gmail.com",
+		"full name": "Đức Quang",
+		"phone": "+84355305120",
+		"job_title": "it",
+		"company_name": "it",
+		"transcript": "Hello this is Alice from Wonderland. We will conduct some questions to verify if you meet our criterias.\nWhat's your name?\nJohn.\nHow old are you?\n21\nWhere do you live?\nHCM City\nWe will send you a verified e-mail if you met our criteria. Thanks for your time."
+	},
+	"nodeId": "aiCall_1745142844714",
+	"createdAt": { "$date": { "$numberLong": "1746255291112" } },
+	"updatedAt": { "$date": { "$numberLong": "1746255339382" } },
+	"__v": { "$numberInt": "0" }
+}
